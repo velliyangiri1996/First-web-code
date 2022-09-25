@@ -1,0 +1,21 @@
+#cityName{
+    width: 300px;
+    align-items: center;
+}
+th{
+color: brown;
+background-color: lightgreen;
+font-family: 'Times New Roman';
+font-weight: bolder;
+}
+
+tr{
+color: white;
+background-color: darkgrey;
+font-family: 'Times New Roman';
+}
+.text{
+    color: blueviolet;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}

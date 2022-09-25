@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <title>Document</title>
+</head>
+<body>
+        <!-- nave bar details -->
+    <nav class="navbar bg-success text-uppercase">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1 text-center font-weight-bolder">US Brewery Details</span>
+        </div>
+      </nav>
+      <div class="text">
+    <h4 > This tabel is shows about the US Main Brewerys Name and Type and Address and URL and contact 
+        number if you want more you call the number and get clear details <br> </<h4>
+        
+        <h4 class="h4"> And click the page numbers for moving to next page </h4>
+    </div>
+
+<br><br>
+            <!-- cretating the tabel process -->
+<div class="container ">
+    <!-- Table structure here -->
+    <table class="table table-dark" id="our-table">
+        <thead>
+            <!-- tabel heading -->
+            <tr> 
+                <th>Name</th>
+                <th>Brewery Type</th>
+                <th>Address</th>
+                <th>website_url</th>
+                <th>phone</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+</div>
+<!-- for pagination -->
+<div class="container"> 
+    <div id="pagination-wrapper"></div>
+</div>
+<br><br>
+
+<script src="./script.js"></script>
+
+
+</body>
+</html>
+
+
